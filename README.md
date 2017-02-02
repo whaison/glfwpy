@@ -2,8 +2,9 @@ glfwpy
 ======
 
 最新のOpenGL（3.2+）をサポートするglfwのPythonのラッパー。この執筆時点でサポートされている最新のバージョン4.3です。
+![stanford bunny](https://github.com/enthought/glfwpy/raw/master/screenshots/bunny.png "Stanford bunny rendered using opengl")
 
-！[stanford bunny]（https://github.com/enthought/glfwpy/raw/master/screenshots/bunny.png "スタンフォードバニーはOpenGLを使ってレンダリングされました"）
+スタンフォードバニーはOpenGLを使ってレンダリングされました"）
 
 サポートされているプラ​​ットフォーム：
 --------------------
@@ -22,17 +23,17 @@ glfwpy
 
 ドキュメンテーション：
 --------------
-1. glfwのドキュメントについては、http：//www.glfw.orgのglfwドキュメントを参照してください。
-2. apiの使い方の例についてはexamplesフォルダを参照してください。
+1. glfwのドキュメントについては、http://www.glfw.org   のglfwドキュメントを参照してください。
+2. apiの使い方の例については/examples/フォルダを参照してください。
 
 警告：
---------
+--------------
 1.イメージング関数（ユーザーはテクスチャをロードするためにPythonイメージングライブラリを使用することが期待されています）
 2.スレッド関数（ユーザーはPythonスレッドライブラリを使用することが期待されます）
 3. glfwGetProcAddress
 
 コンベンション：
------------
+--------------
 これはglfw apiのほぼ1：1ラップです。 glfw接頭辞は、Pythonバージョンの関数呼び出しと定数から削除されています。
 Glfwpy ======ー
 
@@ -61,7 +62,7 @@ Requirements:
 Documentation:
 --------------
 1. Please refer to the glfw docs at http://www.glfw.org for glfw documentation
-2. Please refer to examples folder for examples showing use of the api
+2. Please refer to /examples/ folder for /examples/ showing use of the api
 
 Caveats:
 --------
